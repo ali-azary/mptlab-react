@@ -106,42 +106,42 @@ At a high level, MPTLab implements the classic Modern Portfolio Theory framework
 
    Average daily return multiplied by the number of trading days (≈252):
 
-   [
+   $$
    \mu_{\text{annual}} = \bar{r}_{\text{daily}} \times 252
-   ]
+   $$
 
 3. **Annualized covariance matrix**
 
    Sample covariance of daily returns, also scaled by 252:
 
-   [
+   $$
    \Sigma_{\text{annual}} = \text{Cov}(r_{\text{daily}}) \times 252
-   ]
+   $$
 
 4. **Portfolio return and volatility**
 
-   With weight vector ( \mathbf{w} ), mean vector ( \boldsymbol{\mu} ), and covariance matrix ( \Sigma ):
+   With weight vector $\mathbf{w}$, mean vector $\boldsymbol{\mu}$, and covariance matrix $\Sigma$:
 
-   [
+   $$
    \mu_p = \mathbf{w}^\top \boldsymbol{\mu}
-   ]
+   $$
 
-   [
+   $$
    \sigma_p^2 = \mathbf{w}^\top \Sigma \mathbf{w}, \quad \sigma_p = \sqrt{\sigma_p^2}
-   ]
+   $$
 
 5. **Sharpe ratio**
 
-   Given annual risk-free rate ( r_f ):
+   Given annual risk-free rate $r_f$:
 
-   [
+   $$
    S = \frac{\mu_p - r_f}{\sigma_p}
-   ]
+   $$
 
 MPTLab:
 
 * Simulates random weight vectors
-* Computes ( (\sigma_p, \mu_p, S) ) for each portfolio
+* Computes $(\sigma_p, \mu_p, S)$ for each portfolio
 * Plots them as a cloud and highlights:
 
   * The max-Sharpe portfolio
