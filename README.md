@@ -118,17 +118,13 @@ At a high level, MPTLab implements the classic Modern Portfolio Theory framework
 
    $$\mu_p = \mathbf{w}^\top \boldsymbol{\mu}$$
 
-   $$
-   \sigma_p^2 = \mathbf{w}^\top \Sigma \mathbf{w}, \quad \sigma_p = \sqrt{\sigma_p^2}
-   $$
+   $$\sigma_p^2 = \mathbf{w}^\top \Sigma \mathbf{w}, \quad \sigma_p = \sqrt{\sigma_p^2}$$
 
 5. **Sharpe ratio**
 
    Given annual risk-free rate $r_f$:
 
-   $$
-   S = \frac{\mu_p - r_f}{\sigma_p}
-   $$
+   $$S = \frac{\mu_p - r_f}{\sigma_p}$$
 
 MPTLab:
 
