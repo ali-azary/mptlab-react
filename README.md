@@ -98,9 +98,9 @@ At a high level, MPTLab implements the classic Modern Portfolio Theory framework
 
    For each asset:
 
-   [
+   $$
    r_t = \frac{P_t - P_{t-1}}{P_{t-1}}
-   ]
+   $$
 
 2. **Annualized mean return**
 
