@@ -308,5 +308,3 @@ Contact:
 * LinkedIn: [https://www.linkedin.com/in/ali-azary/](https://www.linkedin.com/in/ali-azary/)
 
 
-::contentReference[oaicite:0]{index=0}
-```
