@@ -149,19 +149,13 @@ MPTLab:
 ```text
 mptlab-react/
   ├─ src/
-  │   ├─ components/
-  │   │   └─ PortfolioOptimizer.tsx
-  │   ├─ main.tsx / index.tsx
+  │   ├─ PortfolioOptimizer.jsx
+  │   ├─ App.jsx
   │   └─ ...
   ├─ public/
-  ├─ api/
-  │   └─ api.php
-  ├─ docs/
-  │   ├─ mptlab_tutorial.pdf
-  │   └─ sample_data.csv
-  ├─ package.json
+  ├─ api.php
+  ├─ mptlab_tutorial.pdf
   ├─ README.md
-  └─ LICENSE
 ```
 
 You can adapt the structure to your build system (Vite, CRA, Next, etc.).
