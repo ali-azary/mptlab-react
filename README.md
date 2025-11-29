@@ -144,22 +144,6 @@ MPTLab:
 * **API layer**: PHP proxy to Yahoo Finance’s `chart` endpoint
 * **Runtime**: Browser + PHP-enabled web server for `api.php`
 
-## Project structure (suggested)
-
-```text
-mptlab-react/
-  ├─ src/
-  │   ├─ PortfolioOptimizer.jsx
-  │   ├─ App.jsx
-  │   └─ ...
-  ├─ public/
-  ├─ api.php
-  ├─ mptlab_tutorial.pdf
-  ├─ README.md
-```
-
-You can adapt the structure to your build system (Vite, CRA, Next, etc.).
-
 ## PHP API (Yahoo Finance proxy)
 
 The `api.php` script is a thin proxy to Yahoo Finance to avoid CORS issues and keep requests server-side.
